@@ -1,13 +1,16 @@
+N=int(input())
+s=list(map(int,input().split()))
+ans=[0]*N
 
+for i in range(1,N+1):
+    t=s[i-1]
+    cnt=0
+    for j in range(N):
+        if cnt==t and ans[j]==0:
+            ans[j]=i
+            break
+        elif ans[j]==0:
+            cnt +=1
 
-num = 3
-mark = [1,2,3,1]
-j = 1
-for i in range(0,num):
-    if i > len(mark):
-        j=0
-    else:
-        value = mark[j]
+print(*ans)
 
-
-print(value)
