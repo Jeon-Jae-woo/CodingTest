@@ -1,16 +1,23 @@
-N=int(input())
-s=list(map(int,input().split()))
-ans=[0]*N
+s = input()
 
-for i in range(1,N+1):
-    t=s[i-1]
-    cnt=0
-    for j in range(N):
-        if cnt==t and ans[j]==0:
-            ans[j]=i
-            break
-        elif ans[j]==0:
-            cnt +=1
+zero = 0
+one = 0 
 
-print(*ans)
+#if s[0] == '0' :
+#     zero +=1
+#else:
+#    one +=1
 
+for i in range(1, len(s)-1):
+    if s[i] != s[i+1]:
+        if s[i+1] =='0':
+            one +=1
+        else:
+            zero +=1
+
+if zero >= one:
+    result = one
+else:
+    result = zero
+
+print(result)
