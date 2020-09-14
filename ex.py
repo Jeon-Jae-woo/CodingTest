@@ -1,23 +1,37 @@
-s = input()
+def solution(s):
+    length = []
+    result = ""
+    len_2=len(s)//2+1
+    
+    for cut in range(1, len_2): 
+        count = 1
+        temp = s[:cut] 
+        for i in range(cut, len(s), cut):
+            if s[i:i+cut] == temp:
+                count += 1
+            else:
+                if count == 1:
+                    count = ""
 
-zero = 0
-one = 0 
+                result += str(count) + temp
+                temp = s[i:i+cut]
+                count = 1
 
-#if s[0] == '0' :
-#     zero +=1
-#else:
-#    one +=1
+        if count == 1:
+            count = ""
+        result += str(count) + temp
+        length.append(len(result))
+        result = ""
+    
+    if len(length) == 0:
+        length.append(1)
 
-for i in range(1, len(s)-1):
-    if s[i] != s[i+1]:
-        if s[i+1] =='0':
-            one +=1
-        else:
-            zero +=1
+    return min(length)
 
-if zero >= one:
-    result = one
-else:
-    result = zero
 
-print(result)
+
+s = "a"
+
+ans = solution(s)
+
+print(ans)
