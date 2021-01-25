@@ -1,16 +1,15 @@
 import sys
 
-N = int(sys.stdin.readline().strip())
-horror = list(map(int, sys.stdin.readline().split(' ')))
+string = sys.stdin.readline().strip()
+numbers = '0123456789'
+data = []
+result = 0
+for i in range(0,len(string)):
+	if string[i] in numbers:
+		result += int(string[i])
+	else:
+		data.append(string[i])
+data.sort()
+data.append(str(result))
 
-group = 0
-person = 0
-
-horror.sort()
-for h in horror:
-	person +=1
-	if person == h:
-		group +=1
-		person = 0
-
-print(group)
+print(''.join(data))

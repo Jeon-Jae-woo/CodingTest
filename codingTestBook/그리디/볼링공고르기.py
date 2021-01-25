@@ -3,18 +3,14 @@
 
 #bol = [1,3,2,3,2]
 #bol = [1,5,4,3,2,4,5,2]
-
 import sys
 
-n, m = map(int, sys.stdin.readline().split(' '))
-bol = list(map(int, sys.stdin.readline().split(' ')))
+N,M = map(int, sys.stdin.readline().split(' '))
+data = list(map(int, sys.stdin.readline().split(' ')))
+values = 0
+for i in range(0, len(data)-1):
+	for j in range(i,len(data)):
+		if data[i] != data[j]:
+			values +=1
 
-count = 0
-for i in range(0,len(bol)):
-    for j in range(i,len(bol)):
-        if bol[i] == bol[j]:
-            continue
-        else:
-            count +=1
-
-print(count)
+print(values)

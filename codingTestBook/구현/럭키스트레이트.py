@@ -14,3 +14,19 @@ if sum1 == sum2:
     print("LUCKY")
 else:
     print("READY")
+
+"""
+import sys
+
+n = sys.stdin.readline().strip()
+
+data = list(map(int,n))
+half = int(len(data)/2)
+value1 = sum(data[:half])
+value2 = sum(data[half:])
+
+if value1 == value2:
+	print("LUCKY")
+else:
+	print("READY")
+"""
