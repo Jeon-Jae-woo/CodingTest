@@ -47,14 +47,25 @@ public class Main {
 		int[] result = ta.solution(numbers);
 		*/
 		
+		/*
 		//예산
 		Budget bg = new Budget();
 		int[] d = {1,3,2,5,4};
 		int budget = 9;
 		System.out.println(bg.solution(d, budget));
+		*/
 		
+		/*
+		//삼진법
+		ThreeM tm = new ThreeM();
+		System.out.println(tm.solution(45));
+		*/
 		
-		
+		//완주하지 못한 선수
+		FinishRace fr = new FinishRace();
+		String[] par = {"mislav", "stanko", "mislav", "ana"};
+		String[] com = {"mislav", "stanko", "ana"};
+		System.out.println(fr.solution(par, com));
 		
 		
 	}
