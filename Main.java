@@ -61,11 +61,25 @@ public class Main {
 		System.out.println(tm.solution(45));
 		*/
 		
+		/*
 		//완주하지 못한 선수
 		FinishRace fr = new FinishRace();
 		String[] par = {"mislav", "stanko", "mislav", "ana"};
 		String[] com = {"mislav", "stanko", "ana"};
 		System.out.println(fr.solution(par, com));
+		*/
+		
+		/*
+		//숫자의표현
+		ExpNumber en = new ExpNumber();
+		System.out.println(en.solution(15));
+		*/
+		
+		//기능개발
+		FunctionDev fd = new FunctionDev();
+		int[] progresses = {95, 90, 99, 99, 80, 99};
+		int[] speeds = {1, 1, 1, 1, 1, 1};
+		System.out.println(fd.solution(progresses, speeds));
 		
 		
 	}
