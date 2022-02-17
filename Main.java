@@ -75,11 +75,31 @@ public class Main {
 		System.out.println(en.solution(15));
 		*/
 		
+		/*
 		//기능개발
 		FunctionDev fd = new FunctionDev();
 		int[] progresses = {95, 90, 99, 99, 80, 99};
 		int[] speeds = {1, 1, 1, 1, 1, 1};
 		System.out.println(fd.solution(progresses, speeds));
+		*/
+		
+		/*
+		//최대값과 최소값
+		MaxAndMin mm = new MaxAndMin();
+		System.out.println(mm.solution("-1 -1"));
+		*/
+		
+		/*
+		//피보나치
+		Fibonacci fc = new Fibonacci();
+		System.out.println(fc.solution(15));
+		*/
+		
+		/*
+		//JadenCase
+		JadenCase jc = new JadenCase();
+		System.out.println(jc.solution("3people unFollowed me"));
+		*/
 		
 		
 	}
