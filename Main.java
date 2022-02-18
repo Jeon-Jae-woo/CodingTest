@@ -101,6 +101,22 @@ public class Main {
 		System.out.println(jc.solution("3people unFollowed me"));
 		*/
 		
+		/*
+		//로또의 최고 순위와 최저 순위
+		Lottos lt = new Lottos();
+		int[] lottos = {45, 4, 35, 20, 3, 9};
+		int[] win_nums = {20, 9, 3, 45, 4, 35};
+		int[] result = lt.solution(lottos, win_nums);
+		System.out.println(result[0] + " ," + result[1]);
+		*/
+		
+		//숫자 문자열과 영단어
+		NumberEng ne = new NumberEng();
+		System.out.println(ne.solution("one4seveneight"));
+		
+		
+		
+		
 		
 	}
 }
