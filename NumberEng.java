@@ -7,7 +7,6 @@ public class NumberEng {
         for(int i=0;i<enNum.length;i++) {
         	s = s.replace(enNum[i], num[i]);
         }
-        
         return Integer.parseInt(s);
     }
 }

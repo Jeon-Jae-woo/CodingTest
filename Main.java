@@ -110,13 +110,39 @@ public class Main {
 		System.out.println(result[0] + " ," + result[1]);
 		*/
 		
+		/*
 		//숫자 문자열과 영단어
 		NumberEng ne = new NumberEng();
 		System.out.println(ne.solution("one4seveneight"));
+		*/
 		
+		/*
+		//음 양 더하기
+		YinAndYang yy = new YinAndYang();
+		int[] absolutes = {4,7,12};
+		boolean[] signs = {true,false,true};
+		System.out.println(yy.solution(absolutes, signs));
+		*/
 		
+		/*
+		//신규 아이디 추천
+		NewId ni = new NewId();
+		System.out.println(ni.solution("...!@BaT#*..y.abcdefghijklm"));
+		*/
 		
+		/*
+		//최솟값 만들기
+		MinValue min = new MinValue();
+		int[] A = {1,2};
+		int[] B = {3,4};
+		System.out.println(min.solution(A, B));
+		*/
+		
+		//올바른괄호
+		CorParen cp = new CorParen();
+		System.out.println(cp.solution("(()("));
 		
 		
 	}
 }
+
