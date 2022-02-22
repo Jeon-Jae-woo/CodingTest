@@ -138,9 +138,21 @@ public class Main {
 		System.out.println(min.solution(A, B));
 		*/
 		
+		/*
 		//올바른괄호
 		CorParen cp = new CorParen();
 		System.out.println(cp.solution("(()("));
+		*/
+		
+		
+		//주식가격
+		StockPrice sp = new StockPrice();
+		int[] prices = {1, 2, 3, 2, 3};
+		int[] result = sp.solution(prices);
+		for(int re : result) {
+			System.out.println(re);
+		}
+		
 		
 		
 	}
