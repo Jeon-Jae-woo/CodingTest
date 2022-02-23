@@ -144,7 +144,7 @@ public class Main {
 		System.out.println(cp.solution("(()("));
 		*/
 		
-		
+		/*
 		//주식가격
 		StockPrice sp = new StockPrice();
 		int[] prices = {1, 2, 3, 2, 3};
@@ -152,7 +152,13 @@ public class Main {
 		for(int re : result) {
 			System.out.println(re);
 		}
+		*/
 		
+		//구명보트 
+		Lifeboat lb = new Lifeboat();
+		int[] people = {30, 30,0,100,200};
+		int limit = 100;
+		System.out.println(lb.solution(people, limit));
 		
 		
 	}
