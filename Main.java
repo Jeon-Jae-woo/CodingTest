@@ -154,12 +154,18 @@ public class Main {
 		}
 		*/
 		
+		/*
 		//구명보트 
 		Lifeboat lb = new Lifeboat();
 		int[] people = {30, 30,0,100,200};
 		int limit = 100;
 		System.out.println(lb.solution(people, limit));
+		*/
 		
+		//없는 숫자 더하기
+		AddNumbersEx ax = new AddNumbersEx();
+		int[] numbers = {5,8,4,0,6,7,9};
+		System.out.println(ax.solution(numbers));
 		
 	}
 }
