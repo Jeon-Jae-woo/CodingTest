@@ -162,10 +162,22 @@ public class Main {
 		System.out.println(lb.solution(people, limit));
 		*/
 		
+		/*
 		//없는 숫자 더하기
 		AddNumbersEx ax = new AddNumbersEx();
 		int[] numbers = {5,8,4,0,6,7,9};
 		System.out.println(ax.solution(numbers));
+		*/
+		
+		//내적
+		Inner in = new Inner();
+		int[] a = {1,2,3,4};
+		int[] b = {-3,-1,0,2};
+		System.out.println(in.solution(a, b));
+		
+		
+		
+		
 		
 	}
 }
