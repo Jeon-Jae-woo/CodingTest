@@ -6,7 +6,6 @@ public class Inner {
         	answer += (a[i] * b[i]);
         }
         
-        
         return answer;
     }
 

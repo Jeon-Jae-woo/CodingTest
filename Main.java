@@ -169,12 +169,18 @@ public class Main {
 		System.out.println(ax.solution(numbers));
 		*/
 		
+		/*
 		//내적
 		Inner in = new Inner();
 		int[] a = {1,2,3,4};
 		int[] b = {-3,-1,0,2};
 		System.out.println(in.solution(a, b));
+		*/
 		
+		//소수 만들기
+		MakeDecimal md = new MakeDecimal();
+		int[] nums = {1,2,3};
+		System.out.println(md.solution(nums));
 		
 		
 		
