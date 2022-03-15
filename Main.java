@@ -177,11 +177,17 @@ public class Main {
 		System.out.println(in.solution(a, b));
 		*/
 		
+		/*
 		//소수 만들기
 		MakeDecimal md = new MakeDecimal();
 		int[] nums = {1,2,3};
 		System.out.println(md.solution(nums));
+		*/
 		
+		//H-Index
+		HIndex h = new HIndex();
+		int[] citations = {3, 0, 6, 1, 5};
+		System.out.println(h.solution(citations));
 		
 		
 		
