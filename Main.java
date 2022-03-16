@@ -184,10 +184,18 @@ public class Main {
 		System.out.println(md.solution(nums));
 		*/
 		
+		/*
 		//H-Index
 		HIndex h = new HIndex();
 		int[] citations = {3, 0, 6, 1, 5};
 		System.out.println(h.solution(citations));
+		*/
+		
+		//큰 수 만들기
+		MakeBigNumber mbn = new MakeBigNumber();
+		String number = "4177252841";
+		int k = 4;
+		System.out.println(mbn.solution(number, k));
 		
 		
 		
