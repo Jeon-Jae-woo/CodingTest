@@ -191,11 +191,31 @@ public class Main {
 		System.out.println(h.solution(citations));
 		*/
 		
+		/*
 		//큰 수 만들기
 		MakeBigNumber mbn = new MakeBigNumber();
 		String number = "4177252841";
 		int k = 4;
 		System.out.println(mbn.solution(number, k));
+		*/
+		
+		/*
+		//전화번호 목록
+		PhoneNumberList pnl = new PhoneNumberList();
+		String[] phone_book = {"123","456","789"};
+		System.out.println(pnl.solution(phone_book));
+		*/
+
+		//정수 제곱근 판별 
+		SquareRoot sr = new SquareRoot();
+		System.out.println(sr.solution(121));
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
