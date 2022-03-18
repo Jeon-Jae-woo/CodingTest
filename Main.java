@@ -206,9 +206,25 @@ public class Main {
 		System.out.println(pnl.solution(phone_book));
 		*/
 
+		/*
 		//정수 제곱근 판별 
 		SquareRoot sr = new SquareRoot();
 		System.out.println(sr.solution(121));
+		*/
+		
+		
+		//위장
+		Camouflage cf = new Camouflage();
+		String[][] clothes = {{"yellowhat", "headgear"}, 
+				{"bluesunglasses", "eyewear"}, {"green_turban", "headgear"}};
+		System.out.println(cf.solution(clothes));
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
