@@ -212,15 +212,21 @@ public class Main {
 		System.out.println(sr.solution(121));
 		*/
 		
-		
+		/*
 		//위장
 		Camouflage cf = new Camouflage();
 		String[][] clothes = {{"yellowhat", "headgear"}, 
 				{"bluesunglasses", "eyewear"}, {"green_turban", "headgear"}};
 		System.out.println(cf.solution(clothes));
+		*/
 		
 		
-		
+		//다리를 지나는 트럭
+		TruckBridge tb = new TruckBridge();
+		int bridge_length = 100;
+		int weight = 100;
+		int[] truck_weights = {10,10,10,10,10,10,10,10,10,10};
+		System.out.println(tb.solution(bridge_length, weight, truck_weights));
 		
 		
 		
