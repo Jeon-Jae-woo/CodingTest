@@ -229,14 +229,20 @@ public class Main {
 		System.out.println(tb.solution(bridge_length, weight, truck_weights));
 		*/
 		
+		/*
+		//신고 결과 받기
 		ReportResult rr = new ReportResult();
 		String[] id_list = {"muzi", "frodo", "apeach", "neo"};
 		String[] report = {"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"};
 		int k = 2;
 		System.out.println(rr.solution(id_list, report, k));
+		*/
 		
-		
-		
+		//키패드 누르기
+		Keypad kp = new Keypad();
+		int[] numbers = {7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2};
+		String hand = "left";
+		System.out.println(kp.solution(numbers, hand));
 		
 		
 		
