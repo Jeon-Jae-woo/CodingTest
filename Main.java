@@ -238,13 +238,12 @@ public class Main {
 		System.out.println(rr.solution(id_list, report, k));
 		*/
 		
+		
 		//키패드 누르기
 		Keypad kp = new Keypad();
 		int[] numbers = {7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2};
 		String hand = "left";
 		System.out.println(kp.solution(numbers, hand));
-		
-		
 		
 		
 		
